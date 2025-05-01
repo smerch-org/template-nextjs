@@ -1,0 +1,30 @@
+{
+  "name": "my-nextjs-app",
+  "version": "1.0.0",
+  "description": "A simple Next.js application",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "pre-commit": "echo \"No tests specified\" && exit 0",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@types/node": "22.15.3",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "husky": "^8.0.3",
+    "typescript": "latest"
+  }
+}
