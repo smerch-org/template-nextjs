@@ -4,7 +4,7 @@ This is a simple Next.js application that serves as a minimal example of how to 
 
 ## Project Structure
 
-```
+```text
 my-nextjs-app
 ├── pages
 │   ├── index.tsx        # Main entry point of the application
@@ -23,18 +23,21 @@ my-nextjs-app
 To get started with this project, follow these steps:
 
 1. Clone the repository:
-   ```
+
+   ```bash
    git clone <repository-url>
    cd my-nextjs-app
    ```
 
 2. Install the dependencies:
-   ```
+
+   ```bash
    npm install
    ```
 
 3. Run the development server:
-   ```
+
+   ```bash
    npm run dev
    ```
 

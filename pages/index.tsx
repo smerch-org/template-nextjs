@@ -1,13 +1,9 @@
 import React from 'react';
-import styles from '../styles/Home.module.css';
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>Welcome to My Next.js App!</h1>
-      <p className={styles.description}>
-        This is a simple application built with Next.js.
-      </p>
+    <div>
+      <h1>Hello World</h1>
     </div>
   );
 };
